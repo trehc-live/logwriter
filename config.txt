@@ -1,0 +1,5 @@
+files_dir = ./log
+ext = txt
+format = %h %l %t "%r" %>s %b
+port = 8888
+db conection string = postgresql://postgres:Pa$$w0rd@127.0.0.1:5440/logwriter
